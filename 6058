@@ -1,0 +1,5 @@
+a, b = input().split()
+if (not bool(int(b)) and not bool(int(a))) or not((bool(int(a)) or bool(int(b)))):
+    print('True')
+else:
+    print('False')
